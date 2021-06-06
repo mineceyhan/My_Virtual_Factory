@@ -1,6 +1,6 @@
 
  // Mine CEYHAN
- //Date : 28.05.2021
+ // Date : 28.05.2021
  // Development Enviorement : Visual Studio 2019
 
 #include <iostream>
@@ -71,7 +71,7 @@ int main() {
 
 
 	vector<int> order_kurulum;
-	order_kurulum.push_back(0); // BAﬁLANGI« DA KURULUM S‹RES› YOKTUR.
+	order_kurulum.push_back(0); // BA√ûLANGI√á DA KURULUM S√úRES√ù YOKTUR.
 	vector<int>  islemhizi;
 	vector<int>  islemkodu;
 	int toplamdak = 0;
@@ -79,7 +79,7 @@ int main() {
 
 	ifstream  operations("Operations.txt");
 	string textline;
-	islemhizi.push_back(0);    //0. ›ND›SLER›NE  HERHANG› B›R DE–ER ATIYORUM. ›ﬁLEM KODU  VE VECTOR ›ND›S›N›N AYNI SAYIYI TUTMASI ›«›N
+	islemhizi.push_back(0);    //0. √ùND√ùSLER√ùNE  HERHANG√ù B√ùR DE√êER ATIYORUM. √ù√ûLEM KODU  VE VECTOR √ùND√ùS√ùN√ùN AYNI SAYIYI TUTMASI √ù√á√ùN
 	islemkodu.push_back(0);
 	while (getline(operations, textline)) {
 
